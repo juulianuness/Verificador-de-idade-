@@ -1,0 +1,99 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #a18cd1, #fbc2eb);
+    color: #333;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Cabeçalho */
+header {
+    padding: 30px 0;
+    background: none;
+    text-align: center;
+}
+
+header h1 {
+    color: white;
+    font-size: 2.8rem;
+    text-shadow: 1px 1px 5px rgba(0,0,0,0.2);
+}
+
+/* Seção principal */
+section {
+    background-color: #ffffff7a;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 30px 40px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+section p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+
+input[type="number"] {
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    width: 100%;
+    max-width: 200px;
+}
+
+input[type="radio"] {
+    margin-left: 15px;
+    margin-right: 5px;
+}
+
+input[type="button"] {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: none;
+    background-color: #2f80ed;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="button"]:hover {
+    background-color: #1c60b3;
+}
+
+/* Resultado */
+#res {
+    margin-top: 30px;
+    font-size: 1.2rem;
+}
+
+#foto {
+    margin-top: 20px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    color: white;
+    font-style: italic;
+    font-size: 0.95rem;
+    margin-bottom: 20px;
+}
